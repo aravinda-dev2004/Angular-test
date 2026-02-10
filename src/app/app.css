@@ -1,0 +1,13 @@
+/* Main app container with flexbox layout */
+div {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Make body content grow to push footer down */
+app-body {
+  flex: 1;
+  margin-top: 60px; /* Add space for fixed navbar */
+  margin-bottom: 20px;
+}
