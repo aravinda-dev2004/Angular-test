@@ -7,5 +7,10 @@
   </div>
 </div>
 
-<input type="text" [(ngModel)]="name">
-  <h1>{{name}}</h1>
+<input type="text" [(ngModel)]="customers.name" placeholder="Enter your name" class="text-body-secondary">
+<input type="text" [(ngModel)]="customers.age" placeholder="Enter your age">
+<input type="text" [(ngModel)]="customers.address" placeholder="Enter your address">
+
+<p>Name: {{ customers.name }}</p>
+<p>Age: {{ customers.age }}</p>
+<p>Address: {{ customers.address }}</p>
